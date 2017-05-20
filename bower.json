@@ -1,0 +1,32 @@
+{
+  "name": "mdfajs",
+  "version": "0.0.0",
+  "authors": [
+    "Christian D Blakely <clisztian@gmail.com>"
+  ],
+  "description": "Multivariate direct filtering (mdfa) for JavaScript: build real-time signal extraction filters in your browser.",
+  "main": "build/mdfa.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "signalextraction"
+    "machine",
+    "learning",
+    "AI",
+    "convnet"
+  ],
+  "license": "MIT",
+  "homepage": "http://imetricablog.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

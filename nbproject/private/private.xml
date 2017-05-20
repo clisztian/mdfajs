@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_init.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_interface.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_weights.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_parameters.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/main.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/public/index.html</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_gramm.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_periodogram.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_solve.js</file>
+            <file>file:/home/clisztian/NetBeansProjects/mdfajs/src/mdfa_regularization.js</file>
+        </group>
+    </open-files>
+</project-private>

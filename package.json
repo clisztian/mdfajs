@@ -1,0 +1,16 @@
+{
+  "name": "mdfajs",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "clisztian",
+  "contributors": [],
+  "dependencies": {
+    "complex.js": "^2.0.1"
+  }
+}

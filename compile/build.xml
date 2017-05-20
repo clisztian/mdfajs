@@ -1,0 +1,29 @@
+<project name="Build" default="compress">
+  <target name="concatenate">
+    <concat destfile="../build/mdfa.js" encoding="UTF-8" outputencoding="UTF-8" fixlastline="true">
+      <filelist id="filelist" dir="../src">
+        <file name="mdfa_init.js"/>
+        <file name="mdfa_complex.js" />
+        <file name="mdfa_periodogram.js" />
+        <file name="mdfa_parameters.js" />
+        <file name="mdfa_gramm.js" />
+        <file name="mdfa_weights.js" />
+        <file name="mdfa_solve.js" />
+        <file name="mdfa_regularization.js" />        
+        <file name="mdfa_export.js" />
+      </filelist>
+    </concat>
+  </target>
+  <target name="compress" depends="concatenate" description="Minify mdfa.js to mdfa-min.js">
+    <apply executable="java" parallel="false">
+      <filelist dir="../build" files="mdfa.js" />
+      <arg line="-jar" />
+      <arg path="yuicompressor-2.4.8.jar" />
+      <srcfile />
+      <arg line="-o" />
+      <mapper type="glob" from="*.js" to="../build/*-min.js" />
+      <targetfile />
+    </apply>
+  </target>
+</project>
+
